@@ -1,6 +1,6 @@
 #!/bin/sh
 mysqldump=/usr/bin/mysqldump
-out_dir=/home/mxl/code/mysql_data
+out_dir=/home/mxl/code/src/mysql_data
 #cd $out_dir
 date=`date +%Y%m%d%H%M%S`
 outsql=/home/mxl/code/mysql_data/$date.sql
